@@ -35,3 +35,4 @@ def solution(a, b):
     now = str(a) + ' ' + str(b)    
     answer = schedule[now]
     return answer
+solution(3,5)

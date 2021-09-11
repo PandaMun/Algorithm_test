@@ -26,13 +26,13 @@ def solution(table, languages, preference):
     answer.append(result[3])
     answer.append(result[0])
     if answer.index(max(answer)) == 0:
-        final = 'CONTENTS'
+        final_answer = 'CONTENTS'
     elif answer.index(max(answer)) == 1:
-        final = 'GAME'
+        final_answer = 'GAME'
     elif answer.index(max(answer)) == 2:
-        final = 'HARDWARE'
+        final_answer = 'HARDWARE'
     elif answer.index(max(answer)) == 3:
-        final = 'PORTAL'
+        final_answer = 'PORTAL'
     elif answer.index(max(answer)) == 4:
-        final = 'SI'
-    return final
+        final_answer = 'SI'
+    return final_answer
