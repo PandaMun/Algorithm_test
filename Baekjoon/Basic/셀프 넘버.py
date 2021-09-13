@@ -1,8 +1,7 @@
-def PrimeNumber():
-    answer = []
-    for i in range(1,100):
+def d():
+    answer = set(range(1,10001))
+    for i in range(1,10001):
          number = 0
-         answer.append(i)
          number += i
          i = str(i)
          for j in i:
@@ -11,10 +10,6 @@ def PrimeNumber():
              answer.remove(number)
     for i in answer:
         print(i)
-
-        
-
-
-
-
-PrimeNumber()
+    
+    
+d()
