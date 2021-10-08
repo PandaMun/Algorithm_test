@@ -8,3 +8,4 @@ for i in alphabet:
         answer += '-1 '
 print(answer)
 
+print(chr(97))
