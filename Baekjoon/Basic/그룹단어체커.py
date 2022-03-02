@@ -1,15 +1,12 @@
-# def setence_checker(number,sentence):
-#     for i in range(number):
-#         for i in sentence
-
-
-
-
-
-
-
 number = int(input())
+a= 97
 sentence = []
-for i in range(number):
-    sentence.append(input())
-print(sentence)
+alphabet = []
+for i in range(26):
+    alphabet.append(chr(a))
+    a+=1
+# # for i in range(number):
+# #     setence.append(input())
+# # for i in sentence:
+# #     for j in range(len(i)):
+print(alphabet)
