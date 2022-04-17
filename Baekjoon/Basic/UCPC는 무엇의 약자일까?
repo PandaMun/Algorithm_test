@@ -1,0 +1,17 @@
+import sys
+input = sys.stdin.readline
+UCPC = input()
+check = ['U','C','P','C']
+count = 0
+for i in UCPC:
+    if count < 4:
+        if i == check[count]:
+            count += 1
+if count == 4:
+    print("I love UCPC")
+else:
+    print("I hate UCPC")
+    
+    
+    
+    
