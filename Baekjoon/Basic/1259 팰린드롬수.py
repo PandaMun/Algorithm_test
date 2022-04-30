@@ -8,4 +8,5 @@ while(1):
         answer.append('yes')
     else:
         answer.append('no')
-print(answer)
+for i in answer:
+    print(i)

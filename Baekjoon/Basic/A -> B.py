@@ -14,9 +14,7 @@ def ab(a,b):
                 answer += 1
             else:
                 b = (b / 10) - 0.1
-                
                 answer += 1
-                
                 
 print(ab(a,b))
     

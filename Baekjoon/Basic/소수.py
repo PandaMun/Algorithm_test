@@ -11,7 +11,10 @@ answer = []
 for i in range(int(input()), int(input())+1):
     if i>1 and PrimeNumber(i):
         answer.append(i)
-print(sum(answer))
-print(min(answer))
+if len(answer) == 0:
+    print(-1)        
+else:
+    print(sum(answer))
+    print(min(answer))
         
     

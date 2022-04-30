@@ -19,4 +19,7 @@ for a in range(h-7):
                         answer1 += 1
                     if check[i][j] != 'W':
                         answer2 += 1 
-        print(answer1,answer2)
+        answer.append(answer1)
+        answer.append(answer2)
+        
+print(min(answer))

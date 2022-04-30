@@ -1,5 +1,3 @@
-
-    
 answer = [0,1]
 j = 1
 count = int(input())

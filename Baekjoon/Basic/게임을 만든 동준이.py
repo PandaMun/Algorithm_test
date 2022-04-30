@@ -15,6 +15,4 @@ for i in level:
             update.append(update[-1] - 1)
         else:
             update.append(i)
-        
-        
-print(update,level,answer)
+print(answer)

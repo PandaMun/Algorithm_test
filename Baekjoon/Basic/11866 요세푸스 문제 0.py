@@ -8,6 +8,8 @@ count = 0
 k = k - 1
 for i in range(1,n+1):
     queue.append(i)
+
+
 while(1):
     if len(queue) == 0:
         break

@@ -4,9 +4,7 @@ while(1):
     if n == 0:
         break
     numbers.append(n)
-    
 num = (max(numbers) * 2) + 1
-
 sieve = [False,False] + [True] * (num-1)
 for i in range(2, int(num**0.5)+1):
     if sieve[i]:

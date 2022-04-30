@@ -7,7 +7,6 @@ answer = []
 result = []
 for i in range(count):
     command = input().strip()
-    result.append(command)
     if 'push' in command:
         command = int(command.replace("push ",""))
         queue.append(command)
@@ -35,4 +34,3 @@ for i in range(count):
             answer.append(-1)
 for i in answer:
     print(i)
-print(result)
