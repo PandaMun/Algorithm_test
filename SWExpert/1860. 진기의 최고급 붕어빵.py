@@ -11,7 +11,7 @@ for test_case in range(1, T + 1):
     while(1):
         time += m
         bread += k
-        print(time,bread)
+        
         if time > number[0]:
             answer.append('Impossible')
             break

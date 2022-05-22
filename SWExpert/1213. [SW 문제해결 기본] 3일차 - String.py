@@ -5,5 +5,7 @@ for test_case in range(10):
     find = input()
     sentence = input()
     sentence = sentence.split(find)
-    print((sentence))
-    
+    answer.append(len(sentence)-1)
+for i in range(len(answer)):
+    print('#' +str(i+1) + ' ' + str(answer[i]))               
+          

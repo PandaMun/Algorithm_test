@@ -15,7 +15,7 @@ for test_case in range(1, T + 1):
                 result += 1
                 for j in range(i,len(target)):
                     case[j] = str(0)
-                
+                    
     answer.append(result)
 for i in range(len(answer)):
     print('#' +str(i+1) + ' ' + str(answer[i]))               

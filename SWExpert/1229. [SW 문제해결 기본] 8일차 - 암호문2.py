@@ -16,14 +16,11 @@ for test_case in range(10):
             case = []
             for j in range(y):
                 code.insert(x+j,command.popleft())
-        elif command_type == 'D':
+        if command_type == 'D':
             x = int(command.popleft())
             y = int(command.popleft())
             del code[x:x+y]
-        elif command_type == 'A':
-            y = int(command.popleft())
-            for j in range(y):
-                code.append(command.popleft())
+            
     answer.append(' '.join(code[:10]))
 for i in range(len(answer)):
     print('#' +str(i+1) + ' ' + str(answer[i]))               
