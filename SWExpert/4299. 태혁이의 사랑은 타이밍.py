@@ -23,7 +23,6 @@ for test_case in range(1, T + 1):
                     if hour < 0:
                         day -= 1
                         hour += 24
-    answer.append(str(day)+ ":" + str(hour) + ":" +str(minute))
-    #answer.append(((day * 24) * 60) + (hour * 60) + minute)
+    answer.append(((day * 24) * 60) + (hour * 60) + minute)
 for i in range(len(answer)):
     print('#' +str(i+1) + ' ' + str(answer[i]))
