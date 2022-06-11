@@ -10,4 +10,12 @@ for test_case in range(1, T + 1):
         half = seq // 2
     suffle1 = card[0:half]
     suffle2 = card[half:]
-    print(suffle1,suffle2)
+    result = []
+    for i in range(len(suffle2)):
+        result.append(suffle1[i])
+        result.append(suffle2[i])
+    if len(suffle2) != half:
+        result.append(suffle1[-1])
+    answer.append(' '.join(result))
+for i in range(len(answer)):
+    print('#' +str(i+1) + ' ' + str(answer[i]))
