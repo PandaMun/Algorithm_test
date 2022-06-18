@@ -13,7 +13,6 @@ for i in range(max(floor)):
     for j in range(max(room)):
             a.append(sum(answer[i][0:j+1]))
     answer.append(a)
-print(answer)
 for i in range(len(floor)):
     print(answer[floor[i]][room[i]-1])
             

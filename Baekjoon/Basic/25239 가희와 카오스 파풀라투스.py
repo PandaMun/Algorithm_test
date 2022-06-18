@@ -14,14 +14,14 @@ for i in range(int(input())):
             if minute >= 60:
                 hour += 1
                 minute -= 60
-            if hour > 12:
+            if hour >= 12:
                 hour -= 12
         if 'H' in command[1]:
             hour += int(command[1][0:1])
             if hour >= 12:
                 hour -= 12
 answer = sum(area)
-if area > 100:
+if answer > 100:
     print(100)
 else:
     print(answer)

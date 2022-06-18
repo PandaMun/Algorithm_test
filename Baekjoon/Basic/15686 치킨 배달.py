@@ -25,6 +25,3 @@ for i in combinations(chicken,m):
         distance += result
     answer.append(distance)
 print(min(answer))           
-            
-            
-#https://codesyun.tistory.com/185
