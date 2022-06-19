@@ -10,4 +10,3 @@ for i in range(len(file[0])):
         if j == len(file) - 1:
             answer += file[0][i]
 print(answer) 
-        

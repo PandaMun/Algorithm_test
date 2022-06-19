@@ -1,7 +1,6 @@
 import heapq
 import sys
 input = sys.stdin.readline
-answer = []
 number = []
 N = []
 for i in range(int(input())):

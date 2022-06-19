@@ -1,6 +1,5 @@
 def solution(clothes):
     answer = 1
-    count = len(clothes)
     type = {}
     for i in clothes:
         type[i[1]] = []

@@ -8,5 +8,4 @@ def solution(n):
                 if result == n:
                     answer += 1
                 break
-
     return answer
