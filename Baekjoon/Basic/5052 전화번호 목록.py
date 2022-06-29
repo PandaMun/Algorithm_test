@@ -14,7 +14,6 @@ for i in range(int(input())):
         phone = input().rstrip()
         phone_book.append(phone)
     phone_book.sort()
-    print(phone_book)
     if solution(phone_book):
         answer.append('YES')
     else:      
