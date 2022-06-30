@@ -11,5 +11,4 @@ def solution(citations):
                 b += 1
         if a >= i and b <= i:
             answer = i
-                   
     return answer

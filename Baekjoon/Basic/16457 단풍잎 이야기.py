@@ -2,7 +2,6 @@ import sys
 from itertools import permutations
 input = sys.stdin.readline
 answer = []
-from itertools import permutations
 n,m,k = map(int,input().split())
 quests = []
 total_key = []
