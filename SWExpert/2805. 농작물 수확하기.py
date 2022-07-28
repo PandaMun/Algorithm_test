@@ -17,4 +17,6 @@ for test_case in range(1, T + 1):
     for i in range(middle+1,len(crops)):
         result += sum(crops[i][middle-end:middle+end+1])
         end -= 1
-    print(result)
+    answer.append(result)
+for i in range(len(answer)):
+    print('#' +str(i+1) + ' ' + str(answer[i]))

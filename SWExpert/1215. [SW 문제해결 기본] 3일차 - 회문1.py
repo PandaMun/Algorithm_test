@@ -1,7 +1,6 @@
 answer = []
-T = int(input())
 # 여러개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
-for test_case in range(1, T + 1):
+for test_case in range(10):
     length = int(input())
     matrix = []
     rematrix = []
@@ -9,7 +8,7 @@ for test_case in range(1, T + 1):
     # matrix
     for i in range(8):
         matrix.append(list(input()))
-    #90 도 회전 'rematrix'
+    #90 도 회전 'rematrix
     for i in range(len(matrix)):
         build = []
         for j in range(len(matrix)):
@@ -25,6 +24,7 @@ for test_case in range(1, T + 1):
                 result += 1
                 
     answer.append(result)
+
 for i in range(len(answer)):
     print('#' +str(i+1) + ' ' + str(answer[i]))               
                 

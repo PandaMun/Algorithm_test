@@ -1,17 +1,16 @@
+import java.util.Arrays;
+import java.util.List;
+import java.util.OptionalInt;
 import java.util.Scanner;
+import java.util.stream.Collectors;
+import java.util.stream.DoubleStream;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class multiple{
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        IntStream number = IntStream.of(11, 22, 33, 44);
 
-        System.out.println(a * (b % 10));
-        System.out.println(a * ((b % 100)/10));
-        System.out.println(a * ((b % 1000)/100));
-        System.out.println(a * b);
-        
-
-
+        System.out.println(number.anyMatch(i ->  i < 10));
     }
 }

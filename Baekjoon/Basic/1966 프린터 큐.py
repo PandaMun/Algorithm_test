@@ -1,14 +1,14 @@
 from collections import deque
+answer = []
 for i in range(int(input())):
-    answer = 0
+    result = 0
     n,m = map(int,input().split())
     queue = (list(map(int,input().split())))
     while(1):   
-        print(queue,m)
         if m == 0:
             if queue[0] == max(queue):
-                answer += 1
-                print(answer)
+                result += 1
+                answer.append(result)
                 break
             else:
                 now = queue.pop(0)
@@ -16,10 +16,11 @@ for i in range(int(input())):
                 m = len(queue)-1
         else:
             if queue[0] == max(queue):
-                print(queue.pop(0))
-                answer += 1
+                queue.pop(0)
+                result += 1
                 m -= 1
             else:
                 queue.append(queue.pop(0))
                 m -= 1
-            
+for i in answer:
+    print(i)         

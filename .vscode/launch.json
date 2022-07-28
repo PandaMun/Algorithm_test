@@ -2,6 +2,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NumberK",
+            "request": "launch",
+            "mainClass": "NumberK",
+            "projectName": "Algorithm_test_4b08199c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework",
+            "request": "launch",
+            "mainClass": "Homework",
+            "projectName": "Algorithm_test_4b08199c"
+        },
+        {
+            "type": "java",
+            "name": "Launch HomeWork",
+            "request": "launch",
+            "mainClass": "HomeWork",
+            "projectName": "Algorithm_test_4b08199c"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixMultiplication",
+            "request": "launch",
+            "mainClass": "MatrixMultiplication",
+            "projectName": "Algorithm_test_4b08199c"
+        },
+        {
+            "type": "java",
+            "name": "Launch FollowingNum1",
+            "request": "launch",
+            "mainClass": "FollowingNum1",
+            "projectName": "Algorithm_test_4b08199c"
+        },
+        {
+            "type": "java",
+            "name": "Launch 숫자_배열_회전",
+            "request": "launch",
+            "mainClass": "숫자_배열_회전",
+            "projectName": "Algorithm_test_4b08199c"
+        },
+        {
+            "type": "java",
+            "name": "Launch 스도쿠_검증",
+            "request": "launch",
+            "mainClass": "스도쿠_검증",
+            "projectName": "Algorithm_test_4b08199c"
+        },
+        {
+            "type": "java",
+            "name": "Launch 어디에_단어가_들어갈_수_있을까",
+            "request": "launch",
+            "mainClass": "어디에_단어가_들어갈_수_있을까",
+            "projectName": "Algorithm_test_4b08199c"
+        },
+        {
+            "type": "java",
+            "name": "Launch 두개의_문자열",
+            "request": "launch",
+            "mainClass": "두개의_문자열",
+            "projectName": "Algorithm_test_4b08199c"
+        },
+        {
+            "type": "java",
+            "name": "Launch 파리퇴치",
+            "request": "launch",
+            "mainClass": "파리퇴치",
+            "projectName": "Algorithm_test_4b08199c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Algorithm_test_4b08199c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "SWExpert.Solution",
+            "projectName": "Algorithm_test_4b08199c"
+        },
+        {
+            "type": "java",
+            "name": "Launch multiple",
+            "request": "launch",
+            "mainClass": "multiple",
+            "projectName": "Algorithm_test_4b08199c"
+        },
+        {
+            "type": "java",
             "name": "Launch PrimeNumber",
             "request": "launch",
             "mainClass": "PrimeNumber",
