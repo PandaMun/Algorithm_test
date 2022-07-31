@@ -1,3 +1,4 @@
+package 정렬;
 import java.util.Arrays;
 
 class NumberK {
