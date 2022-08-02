@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main_17478_문태호 {
+public class Main_17478 {
 	
 	
 	static void WhatIsRecursive(int n, String UnderBar) {
