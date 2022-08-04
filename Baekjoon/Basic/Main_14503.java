@@ -34,32 +34,27 @@ public class Main_14503 {
                 res += 1;
             }
             if (map[r][c - 1] != 0 && map[r - 1][c] != 0 && map[r + 1][c] != 0 && map[r][c + 1] != 0) {
-                        int dr = r + back[d][0];
-                        int dc = c + back[d][1];
-                        if (map[dr][dc] == 1) {
-                            break;
-                        } else {
-                            r = dr;
-                            c = dc;
-                        }
-                    
-                
+                int dr = r + back[d][0];
+                int dc = c + back[d][1];
+                if (map[dr][dc] == 1) {
+                    break;
+                } else {
+                    r = dr;
+                    c = dc;
+                }
             } else {
-                        int dr = r + moving[d][0];
-                        int dc = c + moving[d][1];
-                        if (map[dr][dc] == 0) {
-                            r = dr;
-                            c = dc;
-                        }
-                        if (d == 0) {
-                            d = 3;
-                        } else {
-                            d -= 1;
-                        }
-                    
-                
+                int dr = r + moving[d][0];
+                int dc = c + moving[d][1];
+                if (map[dr][dc] == 0) {
+                    r = dr;
+                    c = dc;
+                }
+                if (d == 0) {
+                    d = 3;
+                } else {
+                    d -= 1;
+                }
             }
-            
         }
         System.out.println(res);
 
