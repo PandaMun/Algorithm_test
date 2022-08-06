@@ -4,9 +4,9 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
-class Main_2163{
+class Main_2164{
 
-    public static void main(String[] args) throws  IOException {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
         Queue<Integer> queue = new LinkedList<>();
