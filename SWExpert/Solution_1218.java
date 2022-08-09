@@ -34,10 +34,6 @@ class Solution_1218{
                     break;
                 }
             }
-            
-        }
-        for(char j : bracket){
-            System.out.println(j);
         }
         if(result){
             System.out.println("#" + String.valueOf(tc) + " " + String.valueOf(1));
