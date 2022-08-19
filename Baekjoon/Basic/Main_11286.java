@@ -18,7 +18,6 @@ public class Main_11286 {
 
 		@Override
 		public int compareTo(Value o) {
-			// TODO Auto-generated method stub
 			if(this.number == o.number) {
 				return this.sign > o.sign ? 1 : -1;
 			}
