@@ -2,7 +2,7 @@ package Level2;
 
 public class JumpAndTeleport {
     public static int solution(int n) {
-        int ans = 0;
+         int ans = 0;
         while (true) {
             if (n == 0) {
                 break;
