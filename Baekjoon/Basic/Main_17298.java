@@ -10,6 +10,7 @@ public class Main_17298 {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = null;
+        StringBuilder sb = new StringBuilder();
         Stack<Integer> stack = new Stack<>();
 
         int n = Integer.parseInt(br.readLine());
@@ -21,7 +22,7 @@ public class Main_17298 {
             a[i] = Integer.parseInt(st.nextToken());
         }
         for (int i = n - 1; i >= 0; i--) {
-            while (!stack.isEmpty() && stack.peek() < a[i]) {
+            while (!stack.isEmpty() && stack.peek() <= a[i]) {
                 stack.pop();
             }
             if (stack.isEmpty()) {
@@ -31,9 +32,12 @@ public class Main_17298 {
             }
             stack.push(a[i]);
         }
-        for (int i = 0; i < n; i++) {
-            System.out.print(answer[i] + " ");
+
+        // StringBuilder 안쓰면 터짐
+        for (int j = 0; j < n; j++) {
+            sb.append(answer[j]).append(' ');
         }
+        System.out.println(sb);
 
     }
 
