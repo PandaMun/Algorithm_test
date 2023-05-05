@@ -38,12 +38,17 @@ public class UndestoriedBuilding {
         int[][] sum = new int[N + 1][M + 1];
 
         for (int i = 0; i < skill.length; i++) { // 누적합을 위해 값을 추가
-
-            sum[skill[i][1]][skill[i][2]] += skill[i][5];
-            sum[skill[i][1]][skill[i][4] + 1] += skill[i][5] * -1;
-            sum[skill[i][3] + 1][skill[i][2]] += skill[i][5] * -1;
-            sum[skill[i][3] + 1][skill[i][4] + 1] += skill[i][5];
-
+            if (skill[i][0] == 1) {
+                sum[skill[i][1]][skill[i][2]] -= skill[i][5];
+                sum[skill[i][1]][skill[i][4] + 1] += skill[i][5];
+                sum[skill[i][3] + 1][skill[i][2]] += skill[i][5];
+                sum[skill[i][3] + 1][skill[i][4] + 1] -= skill[i][5];
+            } else {
+                sum[skill[i][1]][skill[i][2]] += skill[i][5];
+                sum[skill[i][1]][skill[i][4] + 1] += skill[i][5] * -1;
+                sum[skill[i][3] + 1][skill[i][2]] += skill[i][5] * -1;
+                sum[skill[i][3] + 1][skill[i][4] + 1] += skill[i][5];
+            }
         }
 
         // 가로 누적합
